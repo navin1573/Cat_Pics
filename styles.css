@@ -1,17 +1,17 @@
-@font-face{
-font-family: Provicali;
-src:url('provicali.otf') format('woff2'),src:url('provicali.otf') format('woff2');
-font-weight: 1000;
-font-style: normal;
+@font-face {
+  font-family: 'Provicali';
+  src: url('provicali.otf') format('opentype'); 
+  font-weight: 1000;
+  font-style: normal;
 }
 body{
-    background-image:url('5434380.png');
-    background-size: cover;
+    background-image:url('img/cn.jpg');
+    background-size:auto;
     background-position: center;
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
-    
+    justify-content: center;    
 }
 
 .heading{
@@ -22,8 +22,7 @@ body{
    
     width: 100%;
     height: 50%;
-    padding: 0.1em;
-    
+    padding: 0.1em;    
 }
 img{
     width: 300px;
@@ -56,12 +55,21 @@ ul {
   }
   .G img{
     width: 30%;
-    border-radius: 3%;
-    
+    border-radius: 3%;    
   }
-.dna{
-    display:flex;
-    justify-content: center;
-    background-color: #353935;
-    border-radius: 3px;
+  .dna {
+    height: 50%;
+    display: flex;
+    justify-content:center; 
+    background-color: rgba(255, 255, 255, 0.2);  
+    border-radius: 50px;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);  
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.s{
+  color: beige;
+    font-family: Provicali;
+    font-size: large;
+    text-align: center;
 }
